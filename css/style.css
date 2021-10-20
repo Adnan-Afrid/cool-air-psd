@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+/* Header Section Start Css */
+.conatiner{
+    max-width: 1350px;
+    background-color: rgb(219, 219, 219);
+}
+.logo{
+    padding-left: 120px;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.header-wrap nav{
+    padding-right: 110px;
+    padding-top: 16px;
+}
+.header-wrap ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 13px;
+}
+.header-wrap ul li{
+    padding-left: 20px;
+}
+.container-section img{
+width: 100%;
+}
+/* Header Section End Css */
+
+/* Hero Section Start Css */
+.hero{
+    background-image: url('/images/layer.png');
+    height: 112vh;
+    background-size: cover;
+}
+.hero-content{
+    position: absolute;
+    top: 1;
+    top: 55%;
+    left: 15%;
+    font-size: 18px;
+    color: white;
+}
+.hero-content h1{
+    padding-left: 22px;
+    font-size: 30px;
+}
+.hero-content h1 span{
+    color: black;
+}
+.hero-content p{
+    padding-top: 20px;
+}
+.hero-content a{
+    color: white;
+    background-color: skyblue;
+    border: 13px solid skyblue;
+    border-radius: 4px;
+    text-decoration: none;
+    top: 112%;
+    left: 2px;
+    position: absolute;
+}
+.head-content{
+    text-align: center;
+    margin-top: 53px;
+}
+.head-content h3{
+    padding: 20px;
+    font-size: 35px;
+    color: skyblue;
+}
+/* Hero Section End Css */
+
+/* About Section Start Css */
+.about-wrap-image{
+    background-image: url('/images/ac.png'); 
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.head-content h3{
+    font-weight: normal;
+    font-size: 39px;
+}
+.wrapper-img-para{
+    display: flex;
+    margin-top: 100px;
+}
+.about-wrap-image{
+    width: 50%;
+}
+.about-wrap-content{
+    width: 40%;
+}
+.about-wrap-content p{
+    padding-bottom: 21px;
+}
+.about-wrap-content span{
+    color: black;
+    font-weight: bold;
+}
+.about-wrap-content a{
+
+    color: skyblue;
+    background-color: white;
+    border: -9px solid white;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px;
+    border-style: groove;
+    padding: 8px;
+}
+/* About Section End Css */
+
+
+/* Our Services Section Start Css */
+.service-image{
+    background-image: url('/images/split.png'); 
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.image-overlay{ 
+        opacity: 1.2;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(29,56,66,0.7)
+}
+.wrapper-heading p{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 34px;
+}
+.wrapper-air{
+    display: flex;
+    width: 100%;
+    color: white;
+    padding-left: 120px;  
+    padding-top: 66px;
+    justify-content: space-between;
+}
+.air-cond-state{
+    display: flex;
+    width:41%
+}
+.air-cond-install{
+    display: flex;
+    width: 54%;
+}
+.state-image{
+    width: 30%;
+}
+.state-para{
+    width: 88%;
+    font-size: 13px;
+}
+.state-para h2{
+    font-weight: normal;
+}
+.state-para p{
+    margin-top: 16px;
+}
+.install-para p{
+    font-size: 13px;
+    margin-top: 15px;
+}
+.install-para{
+    padding-left: 40px;
+    width: 66%;
+}
+.install-para h2{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.wrapper-below{
+    display: flex;
+    width: 100%;
+    color: white;
+    padding-left: 120px;  
+    padding-top: 66px;
+    justify-content: space-between;
+}
+.indoor-air-quality{
+    display: flex;
+}
+.air-cond-maintenance{
+    display: flex;
+}
+.air-quality-para{
+padding-left: 40px;
+width: 66%;
+font-size: 13px;
+}
+.air-quality-para h2{
+    font-weight: normal;
+}
+.air-quality-para p{
+margin-top: 15px;
+}
+.air-cond-para{
+    padding-left: 40px;
+    width: 66%;
+    font-size: 13px;
+}
+.indoor-air-quality{
+    width: 54%;
+}
+.air-cond-maintenance{
+    width: 60%;
+}
+.air-cond-para h2{
+    font-weight: normal;
+}
+.air-cond-para p{
+    margin-top: 15px; 
+}
+/* Our Services Section End Css */
+
+/* Signs of faulty air conditioner Section Start Css */
+.wrapper-faulty{
+    background-color: rgb(28, 164, 222, 1);
+    padding-top: 31px;
+    padding-bottom: 40px;
+}
+.wrapper-faulty h2{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+.wrapper-faulty p{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 6px
+}
+.wrapper-faulty a{
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 19px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+.wrap-read-more{
+    text-align: center;
+    margin-top: 30px;
+}
+/* Signs of faulty air conditioner Section End Css */
+
+/* Our Products Section Start Css */
+
+.our-products{
+    text-align: center;
+    padding-top: 70px;
+}
+.our-products h2{
+font-weight: normal;
+    font-size: 31px;
+    color: skyblue;
+}
+.our-products p{
+    padding-top: 26px;
+}
+.wrapper-para-image{
+    display: flex;
+}
+.wrppaer-products{
+margin-bottom: 120px;
+}
+.products-para{
+    width: 48%;
+    padding-left: 120px;
+}
+.para1{
+    background-color: gainsboro;
+    padding-left: 15px;
+    padding-right: -47px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    width: 75%;
+    margin-bottom: 17px;
+}
+.para1 h2{
+    font-weight: normal;
+}
+.para2{
+    background-color: gainsboro;
+    padding-left: 15px;
+    padding-right: -47px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    width: 75%;
+}
+.para2 h2{
+    font-weight: normal;
+}
+.products-image{
+    width: 50%;
+    margin-top: 43px;
+}
+.wrapper-para-image{
+    margin-top: 107px;
+}
+/* Our Products Section End Css */
+
+/* Our Clients Section Start Css */
+.ourClients-wrapper h2{
+    font-weight: normal;
+}
+.wrapper-logos-image{
+    text-align: center;
+}
+.ourClients-wrapper{
+    padding-left: 120px;
+    margin-top: 18px;
+}
+.wrapper-logos-image{
+margin-top: 32px;
+}
+/* Our Clients Section End Css */
+
+/* Service Processes Section start Css */
+.wrapper-contents{
+    display: flex;
+    background-color: rgb(209, 218, 222);
+    padding-top: 95px;
+    padding-bottom: 120px;
+}
+.contents-para h2{
+    font-weight: normal;
+}
+.contents-para p{
+    font-size: 13px;
+    width: 65%;
+    margin-left: 110px;
+    padding-bottom: 18px;
+}
+.adnan{
+    position: relative;
+    left: 108px;
+    bottom: 30px;
+    font-size: 22px;
+    font-weight: normal;
+}
+/* Service Processes Section End Css */
+
+/* Reach Out Section Start Css */
+.wrapper-reach-contents{
+    display: flex;
+}
+.reach-out-image{
+    background-image: url('/images/Layer61.png');  
+    background-repeat: no-repeat;
+    width: 721px;
+    height: 991px;
+}
+.image-overlay-reachout{
+    opacity: 1.2;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29,56,66,0.7);
+}
+.reachout-contents{
+    color: white;
+    padding-top: 153px;
+    padding-left: 120px;
+    font-size: 24px;
+}
+.reachout-contents h2{
+    font-weight: normal;
+}
+.reachout-contents h4{
+    font-weight: normal;
+    padding-top: 46px;
+}
+.reachout-contents h3{
+    font-size: 54px;
+}
+.reachout-contents p{
+    font-size: 16px;
+   
+}
+.reachout-contents h5{
+    font-weight: normal;
+    font-size: 23px;
+    padding-top: 30px;
+}
+.reachout-contents h6{
+    font-weight: normal;
+    font-size: 23px;
+    padding-top: 30px;
+}
+.any-query{
+    padding-top: 41px;
+}
+.reach-out-form{
+    text-align: center;
+}
+.reach-out-form h2{
+    font-size: 38px;
+    margin-top: 28%;
+    margin-left: 60px;
+}
+.reach-out-form p{
+    margin-top: 23px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+.reach-out-form form input{
+    margin-top: 4%;
+    padding: 8px 39px;
+    margin-left: 40px;
+}
+.reach-out-form form select{
+    margin-top: 4%;
+    padding: 8px 39px;
+    margin-left: 40px;
+}
+.reach-out-form form textarea{
+    margin-top: 4%;
+    padding: 8px 39px;
+    margin-left: 40px;
+}
+/* Reach Out Section End Css */

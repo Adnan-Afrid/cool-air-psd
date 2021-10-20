@@ -1,0 +1,53 @@
+.container{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+ header{
+	background-color: red;
+	padding: 1px;
+	margin-top: 40px;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: center;
+}
+footer{
+	background-color: blue;
+	padding: 1px;
+	margin-top: 5px;
+	margin-left: 120px;
+	margin-right: 120px;
+	text-align: center;
+}
+.wrapper{
+	display: flex;
+	padding-top: 3px;
+}
+.wrapper-left{
+	display: flex;
+	background-color: pink;
+	width: 20%;
+	text-align: center;
+	justify-content: center;
+	margin-left: 120px;
+}
+.wrapper-right{
+	display: flex;
+		background-color: yellow;
+		width: 62%;
+		text-align: center;
+		justify-content: center;
+		position: relative;
+}
+.sidebar{
+	background-color: orange;
+	width: 20%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30%;
+  justify-content:center;
+  align-items: center;
+  height: 70%;
+  border: solid 3px white;
+}
